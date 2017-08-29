@@ -60,31 +60,25 @@
 /******/ 	__webpack_require__.p = "./dist/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "palm.c7651fd.png";
+__webpack_require__(1);
+module.exports = __webpack_require__(6);
+
 
 /***/ }),
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(2);
-module.exports = __webpack_require__(7);
-
-
-/***/ }),
-/* 2 */
-/***/ (function(module, exports, __webpack_require__) {
-
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(3);
+var content = __webpack_require__(2);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -92,7 +86,7 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(5)(content, options);
+var update = __webpack_require__(4)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -109,21 +103,21 @@ if(false) {
 }
 
 /***/ }),
-/* 3 */
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(4)(undefined);
+exports = module.exports = __webpack_require__(3)(undefined);
 // imports
 
 
 // module
-exports.push([module.i, "body {\n  background: #ddd url(" + __webpack_require__(0) + ");\n  transform: translateX(20px); }\n", ""]);
+exports.push([module.i, "/* Welcome to Compass.\r\n * In this file you should write your main styles. (or centralize your imports)\r\n * Import this file using the following HTML or equivalent:\r\n * <link href=\"/stylesheets/screen.css\" media=\"screen, projection\" rel=\"stylesheet\" type=\"text/css\" /> */\n.header-image {\n  overflow: hidden;\n  max-width: 0px;\n  -webkit-animation: imgAnimate 1.5s cubic-bezier(0.49, 0.41, 0.01, 0.99) 0.3s forwards; }\n\n@keyframes imgAnimate {\n  0% {\n    max-width: 0px; }\n  100% {\n    max-width: 690px; } }\n\n.article:after {\n  content: \"\";\n  display: table;\n  clear: both; }\n\nbody {\n  height: 2000px; }\n\nheader {\n  height: 100vh; }\n  header .header-blog {\n    position: fixed;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, calc(-50% - 50px));\n    width: 100%; }\n    header .header-blog__title, header .header-blog__subtitle {\n      display: block;\n      font-size: 96px;\n      font-family: 'Europa-regular';\n      text-align: center;\n      color: #001E47;\n      margin-bottom: 10px; }\n      header .header-blog__title > span, header .header-blog__subtitle > span {\n        display: inline-block;\n        min-width: 20px;\n        opacity: 0;\n        transform: translateY(100px); }\n        header .header-blog__title > span:nth-child(1), header .header-blog__subtitle > span:nth-child(1) {\n          -webkit-animation: titleAnimate 1s cubic-bezier(0.66, 0.49, 0.27, 1) calc(0.02 * 1s) forwards; }\n        header .header-blog__title > span:nth-child(2), header .header-blog__subtitle > span:nth-child(2) {\n          -webkit-animation: titleAnimate 1s cubic-bezier(0.66, 0.49, 0.27, 1) calc(0.02 * 2s) forwards; }\n        header .header-blog__title > span:nth-child(3), header .header-blog__subtitle > span:nth-child(3) {\n          -webkit-animation: titleAnimate 1s cubic-bezier(0.66, 0.49, 0.27, 1) calc(0.02 * 3s) forwards; }\n        header .header-blog__title > span:nth-child(4), header .header-blog__subtitle > span:nth-child(4) {\n          -webkit-animation: titleAnimate 1s cubic-bezier(0.66, 0.49, 0.27, 1) calc(0.02 * 4s) forwards; }\n        header .header-blog__title > span:nth-child(5), header .header-blog__subtitle > span:nth-child(5) {\n          -webkit-animation: titleAnimate 1s cubic-bezier(0.66, 0.49, 0.27, 1) calc(0.02 * 5s) forwards; }\n        header .header-blog__title > span:nth-child(6), header .header-blog__subtitle > span:nth-child(6) {\n          -webkit-animation: titleAnimate 1s cubic-bezier(0.66, 0.49, 0.27, 1) calc(0.02 * 6s) forwards; }\n        header .header-blog__title > span:nth-child(7), header .header-blog__subtitle > span:nth-child(7) {\n          -webkit-animation: titleAnimate 1s cubic-bezier(0.66, 0.49, 0.27, 1) calc(0.02 * 7s) forwards; }\n        header .header-blog__title > span:nth-child(8), header .header-blog__subtitle > span:nth-child(8) {\n          -webkit-animation: titleAnimate 1s cubic-bezier(0.66, 0.49, 0.27, 1) calc(0.02 * 8s) forwards; }\n        header .header-blog__title > span:nth-child(9), header .header-blog__subtitle > span:nth-child(9) {\n          -webkit-animation: titleAnimate 1s cubic-bezier(0.66, 0.49, 0.27, 1) calc(0.02 * 9s) forwards; }\n        header .header-blog__title > span:nth-child(10), header .header-blog__subtitle > span:nth-child(10) {\n          -webkit-animation: titleAnimate 1s cubic-bezier(0.66, 0.49, 0.27, 1) calc(0.02 * 10s) forwards; }\n        header .header-blog__title > span:nth-child(11), header .header-blog__subtitle > span:nth-child(11) {\n          -webkit-animation: titleAnimate 1s cubic-bezier(0.66, 0.49, 0.27, 1) calc(0.02 * 11s) forwards; }\n        header .header-blog__title > span:nth-child(12), header .header-blog__subtitle > span:nth-child(12) {\n          -webkit-animation: titleAnimate 1s cubic-bezier(0.66, 0.49, 0.27, 1) calc(0.02 * 12s) forwards; }\n        header .header-blog__title > span:nth-child(13), header .header-blog__subtitle > span:nth-child(13) {\n          -webkit-animation: titleAnimate 1s cubic-bezier(0.66, 0.49, 0.27, 1) calc(0.02 * 13s) forwards; }\n        header .header-blog__title > span:nth-child(14), header .header-blog__subtitle > span:nth-child(14) {\n          -webkit-animation: titleAnimate 1s cubic-bezier(0.66, 0.49, 0.27, 1) calc(0.02 * 14s) forwards; }\n        header .header-blog__title > span:nth-child(15), header .header-blog__subtitle > span:nth-child(15) {\n          -webkit-animation: titleAnimate 1s cubic-bezier(0.66, 0.49, 0.27, 1) calc(0.02 * 15s) forwards; }\n        header .header-blog__title > span:nth-child(16), header .header-blog__subtitle > span:nth-child(16) {\n          -webkit-animation: titleAnimate 1s cubic-bezier(0.66, 0.49, 0.27, 1) calc(0.02 * 16s) forwards; }\n        header .header-blog__title > span:nth-child(17), header .header-blog__subtitle > span:nth-child(17) {\n          -webkit-animation: titleAnimate 1s cubic-bezier(0.66, 0.49, 0.27, 1) calc(0.02 * 17s) forwards; }\n        header .header-blog__title > span:nth-child(18), header .header-blog__subtitle > span:nth-child(18) {\n          -webkit-animation: titleAnimate 1s cubic-bezier(0.66, 0.49, 0.27, 1) calc(0.02 * 18s) forwards; }\n\n@keyframes titleAnimate {\n  0% {\n    opacity: 0;\n    transform: translateY(100px); }\n  40% {\n    opacity: 0; }\n  100% {\n    opacity: 1;\n    transform: translateY(0px); } }\n    header .header-blog__subtitle {\n      --fsz: 16px;\n      font-size: var(--fsz);\n      letter-spacing: calc((var(--fsz) / 100) * 20);\n      text-transform: uppercase;\n      font-weight: 500; }\n  header .header-image {\n    position: absolute;\n    top: 50%;\n    transform: translate(-80px, -40px);\n    z-index: -1; }\n\n.articles {\n  margin-top: 500px;\n  position: relative;\n  z-index: 1; }\n\n.container {\n  max-width: 1440px;\n  margin-left: auto;\n  margin-right: auto; }\n\n.article {\n  display: block;\n  margin-top: 400px; }\n  .article > a {\n    display: block;\n    color: #001E47;\n    text-decoration: none;\n    position: relative; }\n  .article__img {\n    max-height: 90vh;\n    width: 100%;\n    overflow: hidden; }\n    .article__img img {\n      width: 100%; }\n  .article:first-child > a {\n    max-width: calc((100% / 6) * 4); }\n  .article:nth-child(2) > a {\n    float: right;\n    max-width: calc((100% / 6) * 3); }\n  .article:nth-child(3) > a {\n    max-width: calc((100% / 6) * 6); }\n  .article:nth-child(4) > a {\n    max-width: calc((100% / 6) * 4); }\n  .article:nth-child(5) > a {\n    float: right;\n    max-width: calc((100% / 6) * 4); }\n  .article:nth-child(6) > a {\n    max-width: calc((100% / 6) * 4); }\n  .article:nth-child(7) > a {\n    float: right;\n    max-width: calc((100% / 6) * 4); }\n  .article__infos {\n    font-family: Arial, sans-serif;\n    position: absolute;\n    right: -30%;\n    top: 50%;\n    max-width: 500px; }\n    .article__infos .transformed {\n      transform: rotate(-10deg) rotateX(50deg) translateX(20px) translateY(20px) translateZ(0);\n      opacity: 0; }\n    .article__infos--title {\n      text-transform: uppercase;\n      font-size: 14px;\n      transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s, opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) 0.1s; }\n    .article__infos--excerpt {\n      font-size: 15px;\n      line-height: 160%;\n      transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0.1s, opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1); }\n  .article > a:hover .article__img {\n    position: relative; }\n    .article > a:hover .article__img::before {\n      display: block;\n      content: '';\n      width: 100%;\n      height: 100%;\n      background: #ffffff;\n      position: absolute;\n      top: 0;\n      left: 0;\n      opacity: .8; }\n  .article > a:hover .transformed {\n    opacity: 1;\n    transform: rotate(0) rotateX(0) translateX(0) translateY(0) translateZ(0); }\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 4 */
+/* 3 */
 /***/ (function(module, exports) {
 
 /*
@@ -205,7 +199,7 @@ function toComment(sourceMap) {
 
 
 /***/ }),
-/* 5 */
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -251,7 +245,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(6);
+var	fixUrls = __webpack_require__(5);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -564,7 +558,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 6 */
+/* 5 */
 /***/ (function(module, exports) {
 
 
@@ -659,19 +653,31 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 7 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/* 6 */
+/***/ (function(module, exports) {
 
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_palm_png__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_palm_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__css_palm_png__);
-/*import config from './config'
-*/
+// INJECT CONTENT ON TITLES
+// Ready to animate
+var title = document.querySelector(".header-blog__title");
+var message = "3 months in Madrid";
 
+for (var i = 0; i < message.length; i++) {
+  title.innerHTML += "<span>" + message[i] + "</span>";
+}
 
+// FADE ON SCROLL
+window.addEventListener('scroll', function (e) {
+  var scroll = window.pageYOffset;
+  var title = document.querySelector(".header-blog__title");
+  var opacity = 1 - scroll / 600;
 
-console.log(__WEBPACK_IMPORTED_MODULE_0__css_palm_png___default.a);
+  title.style.opacity = opacity;
+
+  if (opacity < 0.1) {
+    title.style.opacity = 0.1;
+    title.style.zIndex = -1;
+  }
+});
 
 /***/ })
 /******/ ]);
