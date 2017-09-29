@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "set /p NODE_ENV='entrer dev: ' && webpack",
+    // UNIX
+    // "dev": "NODE_ENV=dev webpack",
     "prod": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
